@@ -1,0 +1,149 @@
+
+*{
+margin:0;
+padding:0;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    height:100%;
+}
+
+.main {
+    display: inline-flex;
+    background-color: #EDEEF0;
+}
+
+.top-bar {
+    background-color: #507298;
+    overflow: hidden;
+}
+
+.top-logo {
+    text-align: left;
+    float: right;
+    padding: 10px 10px;
+    width: 85%;
+}
+
+.site-footer {
+    text-align: center;
+    background-color: white;
+}
+
+.footer-text {
+    color: grey;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.side-nav-container {
+    width: 33%;
+}
+
+.side-nav {
+    float:right;
+    margin-right: 20px;
+    margin-top: 20px
+}
+
+.menu-item {
+    color: #507298;
+    padding: 10px;
+}
+
+.menu-item:hover {
+    background-color: #E1E4E9;
+}
+
+
+.content {
+    width: 34%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.post-container {
+    background-color: white;
+    border: #D8D9DD 1px solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+    width: 70%;
+}
+
+.post-container img {
+    width: 100%;
+}
+
+.post-container:last-child {
+    margin-bottom: 20px;
+}
+
+.post-container hr {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #D1D1D1;
+    background-color: #D1D1D1; 
+    border:none;
+    height: 2px;
+}
+
+.post-text::selection {
+    background-color:#E0E4E5;
+    color:green;
+}
+
+.post-header {
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.post-button {
+    color: #507298;
+}
+
+.post-button:first-child {
+    float: left;
+}
+
+.post-button:last-child {
+    float: right;
+}
+
+.right-block {
+    width: 33%;
+}
+
+.right-block-content {
+    float: left;
+    margin-left: 20px;
+}
+
+.right-block-container {
+    background-color: white;
+    border: #D8D9DD 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 25%;
+}
+
+.right-block-text {
+    background-color: #EDEEF0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.right-block-header {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
